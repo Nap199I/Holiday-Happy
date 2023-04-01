@@ -27,6 +27,10 @@ body {
     padding-bottom: 40px;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* fonts */
 
 .lily {
@@ -85,7 +89,7 @@ footer p {
 }
 
 li.nav-item.copyright {
-    margin-top: 6px;
+    margin-top: 4px;
     right: 3px;
     position: relative;
 }
