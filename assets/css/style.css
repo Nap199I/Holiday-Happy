@@ -60,6 +60,14 @@ footer {
     background-color: #45B3E6;
 }
 
+.social-box:hover {
+    background-color: #fff;
+}
+
+.social-box:hover .fa-brands {
+    color: #45B3E6;
+}
+
 .fa-brands, .fab {
     font-weight: 400;
     left: 6px;
