@@ -68,6 +68,11 @@ p {
     color: #000;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-navbar-active-color);
+    background-color: #45B3E6;
+}
+
 /* home page */
 
 /* .main-title {
