@@ -63,6 +63,11 @@ p {
     text-shadow: 1px 1px 4px rgb(255, 255, 255);
 }
 
+.offcan-title {
+    text-decoration: none;
+    color: #000;
+}
+
 /* home page */
 
 /* .main-title {
