@@ -79,7 +79,7 @@ p {
     text-align: center;
     color: black;
     font-size: 16vw;
-    padding: 25vh 20px;
+    padding: 22vh 20px;
     text-shadow: 1px 1px 20px #fff;
     line-height: 150%;
 }
@@ -134,6 +134,30 @@ ul.nav.justify-content-center.social-icons {
 }
 
 /* media queries */
+
+@media only screen and (min-width: 425px) {
+    .main-title {
+        padding: 17.4vh 20px;
+    }
+}
+
+@media only screen and (min-width: 453px) {
+    .main-title {
+        font-size: 17vw;
+    }
+}
+
+@media only screen and (min-width: 494px) {
+    .main-title {
+        padding: 12vh 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main-title {
+        padding: 12.3vh 20px;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .divider {
