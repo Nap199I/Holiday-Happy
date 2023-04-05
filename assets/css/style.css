@@ -21,6 +21,7 @@ html {
 body {
     position: relative;
     min-height: 100vh;
+    padding: 91px 0 95.56px 0;
 }
 
 .content-wrap {
@@ -46,6 +47,12 @@ p {
 }
 
 /* nav bar */
+
+nav.navbar.nav-colour.navbar-expand-md {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 .nav-text:hover {
     border-color: #fff;
@@ -135,27 +142,15 @@ ul.nav.justify-content-center.social-icons {
 
 /* media queries */
 
+@media only screen and (min-width: 375px) {
+    .main-title {
+        padding: 19vh 20px;
+    }
+}
+
 @media only screen and (min-width: 425px) {
     .main-title {
-        padding: 17.4vh 20px;
-    }
-}
-
-@media only screen and (min-width: 453px) {
-    .main-title {
-        font-size: 17vw;
-    }
-}
-
-@media only screen and (min-width: 494px) {
-    .main-title {
-        padding: 12vh 20px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .main-title {
-        padding: 12.3vh 20px;
+        padding: 16vh 20px;
     }
 }
 
@@ -163,6 +158,11 @@ ul.nav.justify-content-center.social-icons {
     .divider {
         padding-top: 7px;
         font-size: 1rem;
+    }
+
+    .main-title {
+        padding: 11vh 144px;
+        font-size: 11vw;
     }
 
     .nav-text {
