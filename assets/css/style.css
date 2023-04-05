@@ -75,15 +75,14 @@ p {
 
 /* home page */
 
-/* .main-title {
-    height: 100vh;
+.main-title {
     text-align: center;
     color: black;
-    font-size: 500%;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    font-size: 16vw;
+    padding: 25vh 20px;
+    text-shadow: 1px 1px 20px #fff;
     line-height: 150%;
-} */
+}
 
 /* footer */
 
@@ -143,7 +142,7 @@ ul.nav.justify-content-center.social-icons {
     }
 
     .nav-text {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
