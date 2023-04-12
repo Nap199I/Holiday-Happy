@@ -118,6 +118,18 @@ form.hotel-form {
 
 /* flight.html */
 
+h1.flight-title {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px 20px #fff;
+}
+
+form.flight-form {
+    text-align: center;
+    margin-top: 7rem;
+}
+
 /* footer */
 
 footer {
