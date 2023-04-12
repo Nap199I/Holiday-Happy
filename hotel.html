@@ -71,14 +71,14 @@
             <h1 class="hotel-title">
                 Book Your Hotel 
             </h1>
-            <form action="get">
+            <form class="hotel-form" action="get">
                 <label for="date-arriving">Date Arriving</label><br>
-                <input type="date" name="date-arriving" id="date-ar"><br>
+                <input type="date" name="date-arriving" id="date-ar" required><br>
                 <label for="date-leaving">Date Leaving</label><br>
-                <input type="date" name="date-leaving" id="date-le"><br>
+                <input type="date" name="date-leaving" id="date-le" required><br>
                 <label for="location">Location</label><br>
-                <input type="text" name="location" id="loc"><br>
-                <button type="submit">Search</button>
+                <input type="text" name="location" id="loc" required><br>
+                <button type="button" class="btn btn-info">Search</button>
             </form>
         </section>
         <footer class="footer-colour">
