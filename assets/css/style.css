@@ -28,6 +28,17 @@ body {
     padding-bottom: 40px;
 }
 
+label {
+    display: inline-block;
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+
+button {
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
 /* fonts */
 
 .lily {
@@ -80,7 +91,7 @@ nav.navbar.nav-colour.navbar-expand-md {
     background-color: #45B3E6;
 }
 
-/* home page */
+/* home page - index.html */
 
 .main-title {
     text-align: center;
@@ -90,6 +101,22 @@ nav.navbar.nav-colour.navbar-expand-md {
     text-shadow: 1px 1px 20px #fff;
     line-height: 150%;
 }
+
+/* hotel.html */
+
+h1.hotel-title {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px 20px #fff;
+}
+
+form.hotel-form {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+/* flight.html */
 
 /* footer */
 
